@@ -7,7 +7,7 @@ class Base:
 
     @allure.step("getting response")
     def get_response(self, url):
-        response =  requests.get(url)
+        response = requests.get(url)
         self.print_response(response)
         return response
 
